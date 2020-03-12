@@ -1,1 +1,20 @@
-This is help file
+package mypackage;
+
+
+public class MainClass {
+
+    
+    public static void main(String[] args) {
+        //What is the reslt of ceil, floor, round, abs of Math class?
+        double number = -3.45;
+        double ceilNumber = Math.ceil(number);
+        double floorNumber = Math.floor(number);
+        long roundNumber = Math.round(number);
+        double absNumber = Math.abs(number);
+        System.out.println(ceilNumber);
+        System.out.println(floorNumber);
+        System.out.println(roundNumber);
+        System.out.println(absNumber);
+    }
+    
+}
